@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!-- main container of music player -->
+    <div class="music-player">
+        <!-- music track list(left side) -->
+        <section class="left-section">
+            <!-- wsa logo container -->
+            <div class="wsa-logo-container">
+                <img src="./assets/logo/wsa-logo.svg" alt="wsa logo"/>
+            </div>
+            <!-- song list container -->
+             <div class="song-list-container">
+                <h2>Track List</h2>
+                <div id="song-list">
+                    <!-- we will add songs dynamically later -->
+                     <div id="items-list-container">
+                        <!-- three line outline like icon -->
+                        <div id="item-image">
+                            <img src="./assets/icons/outline.svg"/>
+                        </div>
+                        <!-- track datas like song title and singer name -->
+                        <div id="item-track-data">
+                            <p>Title</p>
+                            <p>Artist</p>
+                        </div>
+                        <!-- datas like song duration and year of release -->
+                        <div id="item-track-duration">
+                            <p>Duration</p>
+                            <p>Year</p>
+                        </div>
+                     </div>
+                </div>
+             </div>
+        </section>
+    </div>
+</body>
+</html>
